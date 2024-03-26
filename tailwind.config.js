@@ -10,6 +10,10 @@ export default {
     fontFamily: {
       serif: ['Mulish', 'serif'],
     },
+    colors:{
+      primary: '#ffffff65',
+      primaryblue: '#00B5D7',
+    }
   },
   plugins: [],
 }
