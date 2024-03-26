@@ -19,7 +19,7 @@
             <label class="relative block h-[40px] w-[230px]">
               <span class="py-1">
                 <span class="icon-Search-Outline-Outline absolute flex text-base leading-4 p-2 pt-3"></span>
-                <input v-model="search_input" class="placeholder:text-base pl-8 pr-4 bg-white w-full h-full border rounded"
+                <input v-model="search_input" class="search_input focus:border-gray-500 focus:border outline-0 placeholder:text-base pl-8 pr-4 bg-white w-full h-full border rounded"
                   placeholder="Search" type="text" name="search" />
                 </ span>
             </label>
@@ -37,7 +37,7 @@
             </div>
             <div class="flex items-center justify-center self-center gap-2 pl-4 pr-6 py-[10px] bg-[#E2F3FF] text-[#00B5D7] rounded-full cursor-pointer text-xl	">
             <span class="icon-Plus-Outline"></span>
-            <span class="font-semibold	cdtext-sm	">Создать объявления</span>
+            <span class="font-semibold text-sm">Создать объявления</span>
           </div>
           </div>
         </div>
